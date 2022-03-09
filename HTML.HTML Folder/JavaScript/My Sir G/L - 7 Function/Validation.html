@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title> js </title>
+			<script language = "javascript">
+				function val()
+				{
+					if(frm.phone.value==" ")
+					{
+						alert("Please Enter the Phone number");
+						frm.phone.focus();
+						return false;
+					}
+					
+					if(isNaN(frm.phone.value))
+					{
+						alert("Invalid Phone Number")
+						frm.phone.focus();
+						return false;
+					}
+					
+					if(frm.phone.value).length < 10)
+					{
+						alert("Phone Number should be minimum 10 digit");
+						frm.phone.focus();
+						return false;
+					}
+				return true;
+				}
+			</script>
+	</head>
+	
+	<body>
+		<h2> Phone Validation </h2>
+		<form name = "frm" method = "post" action = "thankyou.htm">
+			Phone : 
+			<input type = "text" name = "phone" placeholder = "Enter Phone Number">
+			<br>
+			<input type = "submit" value = "Submit" onclick = "return val();">
+			<input type = "reset" value = "Reset">
+		</form>
+	</body>
+</html>

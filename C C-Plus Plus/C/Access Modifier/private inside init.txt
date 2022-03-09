@@ -1,0 +1,39 @@
+#include<iostream>
+
+using namespace std;
+
+
+class Circle{
+
+    
+    // make data memeber private
+
+	private:
+        
+		double radius = 4.5;
+  
+
+   
+    	public:
+        
+		double area(){
+
+            		return 3.14*radius*radius;
+        		}
+
+};
+
+
+
+int main(){
+
+    	Circle obj;
+
+	// obj.radius = 4.5; --> give error
+    
+    	cout<<"Area : " <<obj.area();
+    
+    
+	return 0;
+
+}

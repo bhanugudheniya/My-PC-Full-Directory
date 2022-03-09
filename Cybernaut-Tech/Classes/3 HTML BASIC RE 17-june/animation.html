@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: linear-gradient(to right, #001534, #052e61, #124993, #2166c8, #3185ff);
+        }
+        
+        .animation {
+            margin-left: 40%;
+            margin-top: 10%;
+        }
+        
+        .p1 {
+            height: 300px;
+            width: 40px;
+            background-color: #0F9D58;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.1s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .p2 {
+            height: 300px;
+            width: 40px;
+            background-color: #DB4437;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.2s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .p3 {
+            height: 300px;
+            width: 40px;
+            background-color: #4285F4;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.3s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .p4 {
+            height: 300px;
+            width: 40px;
+            background-color: #F4B400;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.4s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .p5 {
+            height: 300px;
+            width: 40px;
+            background-color: #E49249;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.5s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .p6 {
+            height: 300px;
+            width: 40px;
+            background-color: blueviolet;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.6s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .p7 {
+            height: 300px;
+            width: 40px;
+            background-color: violet;
+            animation: BIGSMALL 1s ease-in-out infinite;
+            animation-delay: 0.7s;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        @keyframes BIGSMALL {
+            0% {
+                height: 200px;
+                opacity: 0;
+            }
+            50% {
+                height: 300px;
+                opacity: 0.5;
+            }
+            100% {
+                height: 200px;
+                opacity: 1;
+            }
+        }
+        /*Block Animation*/
+        
+        .blockAnimation {
+            margin-left: 40%;
+            margin-top: 10%;
+            position: absolute;
+            top: 60%;
+            left: 0%;
+        }
+        
+        .a1 {
+            height: 40px;
+            width: 40px;
+            background-color: #0F9D58;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.1s;
+            float: left;
+            box-shadow: 0 0px 10px #0F9D58;
+            border-radius: 50px;
+        }
+        
+        .a2 {
+            height: 40px;
+            width: 40px;
+            background-color: #DB4437;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.2s;
+            float: left;
+            box-shadow: 0 0px 10px #DB4437;
+            border-radius: 50px;
+        }
+        
+        .a3 {
+            height: 40px;
+            width: 40px;
+            background-color: #4285F4;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.3s;
+            float: left;
+            box-shadow: 0 0px 10px #4285F4;
+            border-radius: 50px;
+        }
+        
+        .a4 {
+            height: 40px;
+            width: 40px;
+            background-color: #F4B400;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.4s;
+            float: left;
+            box-shadow: 0 0px 10px #F4B400;
+            border-radius: 50px;
+        }
+        
+        .a5 {
+            height: 40px;
+            width: 40px;
+            background-color: #E49249;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.5s;
+            float: left;
+            box-shadow: 0 0px 10px #E49249;
+            border-radius: 50px;
+        }
+        
+        .a6 {
+            height: 40px;
+            width: 40px;
+            background-color: blueviolet;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.6s;
+            float: left;
+            box-shadow: 0 0px 10px blueviolet;
+            border-radius: 50px;
+        }
+        
+        .a7 {
+            height: 40px;
+            width: 40px;
+            background-color: violet;
+            animation: block 1s ease-in-out infinite;
+            animation-delay: 0.7s;
+            float: left;
+            box-shadow: 0 0px 10px violet;
+            border-radius: 50px;
+        }
+        
+        @keyframes block {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="animation">
+        <div class="p1"></div>
+        <div class="p2"></div>
+        <div class="p3"></div>
+        <div class="p4"></div>
+        <div class="p5"></div>
+        <div class="p6"></div>
+        <div class="p7"></div>
+    </div>
+
+    <!-- Block -->
+
+    <div class="blockAnimation">
+        <div class="a1"></div>
+        <div class="a2"></div>
+        <div class="a3"></div>
+        <div class="a4"></div>
+        <div class="a5"></div>
+        <div class="a6"></div>
+        <div class="a7"></div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+
+<wml>
+
+<card title="WML Tables">
+<p>
+<table columns="3" align="LCR">
+	<tr>
+	  <td>Col 1</td>
+	  <td>Col 2</td>
+	  <td>Col 3</td>
+	</tr>
+
+	<tr>
+	  <td>A</td>
+	  <td>B</td>
+	  <td>C</td>
+	</tr>
+
+	<tr>
+	  <td>D</td>
+	  <td>E</td>
+	  <td>F</td>
+	</tr>
+</table>
+</p>
+</card>
+
+</wml>

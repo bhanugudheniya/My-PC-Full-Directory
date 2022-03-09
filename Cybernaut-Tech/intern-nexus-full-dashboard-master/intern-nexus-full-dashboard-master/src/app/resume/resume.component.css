@@ -1,0 +1,271 @@
+
+  h3{
+    padding:4%;
+    text-decoration:underline;
+}
+
+/* starting */
+
+.wrapper {
+  background: white;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.sidebar-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  width: 240px;
+  height: 100%;
+  min-height: 1000px;
+  color: #fff;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.644);
+}
+
+.sidebar-wrapper a {
+  color: #fff;
+}
+
+.sidebar-wrapper .profile-container {
+   padding:4%;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+/* -----------------------------------------*/
+/* profile-starting */
+/* ----------------------------------------- */
+.profilebackground{
+  border-radius:60%;
+  box-shadow: 0 0 10px 3px rgb(77, 177, 138); 
+  transition: 0.5s;
+  transform:scale(.9);
+  z-index: -1;
+}
+.profilebackground:hover{
+  transform:scale(1.1);
+  box-shadow: 0 0 15px 5px #bb3756; 
+}
+/* ------------------------------------------- */
+/* profile-ending */
+/* ---------------------------------------------- */
+
+/* ------------------------------------------------ */
+/* get-in-touch-starting */
+/* ------------------------------------------------ */
+              .minibox-email:hover{
+                text-decoration: underline;
+              }
+              .minibox-github:hover{
+                text-decoration: underline;
+              }
+              .minibox-linkedin:hover{
+                text-decoration: underline;
+              }
+              .minibox-phone:hover{
+                text-decoration: underline;
+              }
+              #icon{
+                color:black;
+                font-size:25px;
+               padding:5%;
+               margin:auto;
+               /* background: black;
+                border-radius:50%;
+                border-top-left-radius: 50%;
+                border-top-right-radius: 50%;
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 50%;*/
+                text-align:center
+            }  
+/* ---------------------------------------- */
+/* get-in-touch-ending */
+/* ---------------------------------------- */
+
+
+
+/* ---------------------------------------- */
+/* PERSONAL_INFORMATION */
+/* ---------------------------------------- */
+.container-fluid{
+padding:8%;
+}
+.subhead{
+  text-align:left;
+  margin-top:6%;
+  color:black;
+  font-size:18px;
+  font-weight:bold
+}
+.subhead-2{
+  text-align: right
+}
+#personalinfo{
+  border-radius:40px;
+}
+#personal-information{
+  background-color:rgb(36, 138, 179);
+  text-align:center;
+  padding:2%;
+  font-weight:bolder;
+  border-radius:40px;
+  transition: 0.5s;
+  transform:scale(.9);
+  z-index:1;
+}
+#personal-information:hover{
+  transform:scale(1.1);
+}
+h6{
+  text-align:center;
+  font-weight:bold
+} 
+/* --------------------------------------- */
+/* personal-information-ending */
+/* --------------------------------------- */
+
+
+
+
+/* ------------------------------------- */
+ /* RIGHT-SIDE-BOX-STARTING */
+/* -------------------------------------*/
+
+
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 10px;
+  padding-left:300px;
+}
+
+
+#icon2{
+  font-size:35px;
+  /* color:white;
+  padding-top:0%; 
+  background: black;
+  border-radius:50%;
+  box-shadow: 0 0 3px 8px black;  */
+  text-align:center;
+}
+
+
+/* carrer Objective & Skills */
+.txt1{
+text-align: left;
+color:rgba(17, 22, 22, 0.945)
+}
+.text2{
+text-align: left;
+}
+/* academic */
+.t1{
+text-align: left;
+font-weight:bold;
+}
+.t2{
+text-align: left;
+font-weight:lighter;
+}
+.t3{
+text-align: left;
+font-weight:bold;
+color: darkcyan
+}
+.t4{
+text-align: left;
+font-weight:bold;
+color: grey
+
+}
+.t5{
+text-align: left;
+font-weight:lighter;
+
+}
+
+/* work-experience */
+.e1{
+text-align: left;
+font-weight:bold;
+}
+.e2{
+text-align: left;
+
+}
+.e3{
+text-align: left;
+color:darkcyan
+}
+
+
+.right-box{
+background-color:white;
+box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.644);
+}
+.tagline{
+margin-top: 5%;
+font-size:  30px;
+font-weight:bold;
+text-align: center;
+color: 	rgb(72,209,204);
+font-style:italic;
+
+}
+#firstbox{
+padding-top:0px;
+padding-bottom:0px;
+background:contain;
+height:50px;
+width:100%;
+background-color:lightgray;
+box-shadow: 0 0 3px 1px black;
+transition: 0.5s;
+transform:scale(.9);
+z-index: -1;
+}
+#firstbox:hover{
+transform:scale(1.1);
+box-shadow: 0 0 15px 5px black;  
+}
+h5{
+font-weight:bold;
+text-align:left;
+padding:2%
+}
+.subtext-1{
+text-align:center;
+}
+
+
+/* ------------------------------------------------- */
+/* RIGHT-SIDE-BOX-ENDING */
+/* ------------------------------------------------- */
+
+@media (max-width: 767.98px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 60px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+
+}
+
+

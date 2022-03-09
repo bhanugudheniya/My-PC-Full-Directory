@@ -1,0 +1,32 @@
+<!-- JOIN() ===>>  Join() returns all elements of the array joined together as a single string. -->
+<!-- Reverse() ===>>  Reverse the order of the elements in the array. -->
+
+
+
+<html>
+<head>
+<title> Array </title>
+</head>
+
+<body>
+<script language = "JavaScript">
+
+		friends = new Array(5);						<!-- make Array where name is "friends"  -->
+		friends[0] = "Bhanu";						<!--  /                                  \  -->
+		friends[1] = "Aakarsh";						<!--  |									 |  -->
+		friends[2] = "Shobit";						<!-- <|	Assign value of array			 |> -->
+		friends[3] = "Kamal";						<!--  |									 |  -->
+		friends[4] = "Robin";						<!--  \									 /  -->
+		
+	document.write(friends[0]+ "<br>");				<!--  /                                  \  -->
+	document.write(friends[1]+ "<br>");				<!--  |									 |  -->
+	document.write(friends[2]+ "<br>");				<!-- <|	print the value in web page		 |> -->
+	document.write(friends[3]+ "<br>");				<!--  |									 |  -->
+	document.write(friends[4]+ "<br><br>");			<!--  \									 /  -->
+	
+	join_alpha = friends.join();					<!-- make a join function name as "join_alpha" which can join the values of "friends" array -->
+	document.write(join_alpha);						<!-- print the values of join_alpha on web page -->
+	
+</script>
+</body>
+</html>

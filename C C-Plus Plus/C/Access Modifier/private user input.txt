@@ -1,0 +1,49 @@
+#include<iostream>
+
+using namespace std;
+
+
+class Circle{
+
+   	private:
+        
+		double radius;
+
+    
+    public:
+
+        	void area(double r){
+
+        
+        	radius = r;
+
+        		double Area = 3.14*radius*radius;
+
+        		cout << "Radius is : " <<radius <<endl;
+
+        		cout << "Area is : " <<Area;
+	
+
+    	}
+
+};
+
+
+
+int main()
+{
+
+   	Circle obj;
+
+    	double r;
+
+    	cout<<"Enter radius value\n";
+
+    	cin>>r;
+
+    
+    obj.area(r);
+
+    	return 0;
+
+}

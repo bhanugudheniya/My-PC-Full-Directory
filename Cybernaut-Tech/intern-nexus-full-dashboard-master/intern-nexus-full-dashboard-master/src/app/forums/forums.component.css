@@ -1,0 +1,237 @@
+.head{
+    color:#ffffff;
+    font-size: 2.2rem;
+    margin-left: 35%;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline ;
+    
+}
+
+.heading{
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;   
+}
+
+.title{
+    color:#95A5A6;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.line{
+    background-color:#a9afbbd1;
+    width:100%;
+    margin:1px;
+}
+
+.line1{
+    width:100%;
+    margin: 1px;
+    background-color: #ffffff;
+}
+
+.card-container{ 
+    position: relative;
+    perspective: 200rem;
+    height: 400px;
+    margin:50px;
+    float:left;
+    margin-top:80px;
+    margin-left: 140px;
+}
+    
+.card-container:hover .card-front{
+    transform:rotateY(180deg);
+}
+    
+.card-container:hover .card-back{
+    transform:rotateY(0deg);
+}
+    
+.card-back{
+    transform: rotateY(180deg);
+    background-color:#45B39D;
+}
+    
+.card{
+    position:absolute;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.9s;
+    backface-visibility: hidden;
+    
+}
+
+.card-front{
+    background-color:#5499C7;
+}
+
+.card-title{
+    color:#566573  ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.card-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top:10px;
+}
+
+.card-tex{
+    font-size: 2opx;
+    margin-top: 10px;
+}
+
+.social{
+    color:#566573  ;
+    font-size:30px;
+    transition:0.5s;
+}
+
+.social:hover{
+    color:#8E251A;
+}
+
+.social-link{
+    font-size: 30px;
+    color:#566573  ;
+    transition: 0.5s;
+}
+
+.social-link:hover{
+    color:#19436F;
+}
+
+@media(max-width: 768px){
+    .card-container{
+        margin-left: 70px;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+}.head{
+    color:#ffffff;
+    font-size: 2.2rem;
+    margin-left: 35%;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline ;
+    
+}
+
+.heading{
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-right: 25%;   
+}
+
+.title{
+    color:#95A5A6;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.line{
+    background-color:#a9afbbd1;
+    width:100%;
+    margin:1px;
+}
+
+.line1{
+    width:100%;
+    margin: 1px;
+    background-color: #ffffff;
+}
+
+.card-container{ 
+    position: relative;
+    perspective: 200rem;
+    height: 400px;
+    margin:50px;
+    float:left;
+    margin-top:80px;
+    margin-left: 140px;
+}
+    
+.card-container:hover .card-front{
+    transform:rotateY(180deg);
+}
+    
+.card-container:hover .card-back{
+    transform:rotateY(0deg);
+}
+    
+.card-back{
+    transform: rotateY(180deg);
+    background-color:#45B39D;
+}
+    
+.card{
+    position:absolute;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.9s;
+    backface-visibility: hidden;
+    
+}
+
+.card-front{
+    background-color:#5499C7;
+}
+
+.card-title{
+    color:#566573  ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.card-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top:10px;
+}
+
+.card-tex{
+    font-size: 2opx;
+    margin-top: 10px;
+}
+
+.social{
+    color:#566573  ;
+    font-size:30px;
+    transition:0.5s;
+}
+
+.social:hover{
+    color:#8E251A;
+}
+
+.social-link{
+    font-size: 30px;
+    color:#566573  ;
+    transition: 0.5s;
+}
+
+.social-link:hover{
+    color:#19436F;
+}
+
+@media(max-width: 768px){
+    .card-container{
+        margin-left: 70px;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+}

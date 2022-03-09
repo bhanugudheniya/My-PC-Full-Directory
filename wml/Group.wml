@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
+"http://www.wapforum.org/DTD/wml12.dtd">
+
+<wml>
+
+<card title="Selectable List"> 
+<p>
+ <select>
+   <optgroup title="India">
+    <option value="delhi">Delhi</option>
+    <option value="mumbai">Mumbai</option>
+    <option value="hyderabad">Hyderabad</option>
+   </optgroup>
+</select>
+
+<select>
+   <optgroup title="USA">
+    <option value="ohio">Ohio</option>
+    <option value="maryland">Maryland</option>
+    <option value="washington">Washingtone</option>
+   </optgroup>
+ </select>
+</p>
+</card>
+
+</wml>

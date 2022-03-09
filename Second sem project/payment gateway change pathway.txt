@@ -1,0 +1,13 @@
+Front-end
+********
+USER/user-checkout --
+Line no 37 to 40
+Line no 43 to 83
+
+
+Back-end
+********
+
+routes/customer --
+Line no 392 -- comment all key and paste -- Insta.setKeys('test_ac6c027a59cd53e60732eff67fe', 'test_356206b1bea68d2bf3eedb9261f');
+Line no 365, 370 -- change to --> success:true

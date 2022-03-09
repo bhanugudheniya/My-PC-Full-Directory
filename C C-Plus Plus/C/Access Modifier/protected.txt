@@ -1,0 +1,47 @@
+#include<iostream>
+
+using namespace std;
+
+
+class Parent{
+
+    protected:
+
+        int id_protected;
+
+};
+
+
+
+class Child : public Parent{
+
+    public:
+
+        void setID(int id){
+
+            id_protected = id;
+
+        }
+        
+        
+void getId(){
+
+  	cout<<"Id : " <<id_protected <<endl;
+
+     	}
+
+};
+
+
+
+int main(){
+
+    Child obj;
+
+    obj.setID(4);
+
+    obj.getId();
+
+    return 0;
+
+}

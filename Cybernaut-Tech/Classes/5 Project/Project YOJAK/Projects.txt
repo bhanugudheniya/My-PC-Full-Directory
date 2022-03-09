@@ -1,0 +1,101 @@
+PROJECT 1
+---------
+Project Name : YOJAK
+
+
+Description : In this project, students are ask the question or quries from there collage or school about there educational, timing,
+exam, any doughts purpose.
+
+->>There are 3 pahse: 
+1.) Student
+2.) Faculty
+3.) Admin
+
+
+There has 3 login account interface, which is
+-student login page
+-faculty login page
+-admin login page
+
+*If mostlty student has same question so there have functionality of "LIKE" the question using "Like button", so the rank of question
+  was decrease than other questions and push up to top on the page.
+  There has comment section for students for give answer to any question.
+
+#NAVBAR CONTENT
+---------------
+->> Home
+->> Services
+->> Developers
+->> Report
+->> About
+
+@-> Home : NAVBAR, MAIN_IMAGE, Sign up and Login Account on Main_Image, Terms and Condition [FOOTER: FAQ, Contact, Feedback, Follow on Insta, Facebook]
+@-> Services : What we Provide, and for who, Some images, Ask Form
+@-> Developers : Introduction to Developers with there skills and Face Images.
+@-> Report : It contain Report form for who was use abuse word on the Comment Box or in chats, with there Username, Name, Phase Site,
+		Enrollment no. and Form provide check box for default aligations and optional text box for add another thing.
+@-> About : Introduction to Website, Aim of Website, etc....
+
+#Student Sign up Page Requirement
+-------------------------------
+1.Name
+2.Course
+3.Batch
+4.Semester
+5.Enrollment no
+6.email id or phone no
+7*.opt on phone or email
+8. Username
+9. Password
+
+#Faculty Sign up Page Requirement
+-------------------------------
+1.Name
+2.Enrollment no
+3.Department
+4.Phone no or email id
+5*.opt on phone or email
+6. Username
+7. Password
+
+#Admin Sign up Requiremnt
+----------------------------
+1.Name
+2.Enrollment no
+3.Department
+4.Phone no or email id
+5*.opt on phone or email
+6. Username
+7. Password
+
+
+@Student Home page Content <this list are contained in List box with search button>
+----------------------------
+List of quries from There Batch.
+List of quries from There Department or Course (all batches of same course).
+List of quries from There collage or school.
+Notification
+Logout
+
+
+@Faculty Home Page Content <this list are contained in List box with search button>
+--------------------------
+List of quries from There Department.
+List of quries from There Batches.
+List of quries from There Collage or school.
+List of quries from All faculties.
+Notification
+Logout
+
+
+@Admin Home Page Content <this list are contained in List box with search button>
+-------------------------
+List of All faculties with full detail.
+List of All Students with full detail.
+Add or remove there faculties or students (AI BASED using there acadmic year).
+Power of making other person Admin.
+Notification
+Logout.
+
+<!-- Groups, Create Ads, Community, Report to any person who belong to any Services --> 
+

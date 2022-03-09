@@ -1,0 +1,14 @@
+<div>
+    <form>
+        {% for Data in data %}
+        <tr>
+            <label>{{Data.Question}}</label>
+            <input type="radio"> {{Data.OptionA}}
+            <input type="radio"> {{Data.OptionB}}
+            <input type="radio"> {{Data.OptionC}}
+            <input type="radio"> {{Data.OptionD}}
+            <label>{{Data.Answer}}</label>
+        </tr>
+        {% endfor %}
+    </form>
+</div>

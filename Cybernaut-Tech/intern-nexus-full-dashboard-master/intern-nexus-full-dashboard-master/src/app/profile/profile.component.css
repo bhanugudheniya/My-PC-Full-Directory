@@ -1,0 +1,33 @@
+.img {
+  vertical-align: middle;
+  border-style: none;
+border-radius: 60px;
+margin: -80px;
+
+}
+.card-body
+{
+   margin-top:25%;
+}
+.card-profile
+{
+  margin-top: 30%;
+
+}
+.form-control:focus
+{
+outline: none;
+
+}
+input:focus::-webkit-input-placeholder {
+font-size: .75em;
+position: relative;
+top: -15px; 
+transition: 0.2s ease-out;
+}
+.form-control:focus{
+border-color: #cccccc;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+

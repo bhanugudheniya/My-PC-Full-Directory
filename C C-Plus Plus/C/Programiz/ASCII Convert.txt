@@ -1,0 +1,64 @@
+#include<stdio.h>
+
+void main()
+{
+
+    char ch;
+
+    int n, select;
+
+    printf("Enter 1 for convert Character to Number or Enter 2 for convert Number to Character : ");
+
+    scanf("%d", &select);
+
+    
+    switch(select)
+{
+
+        	case 1:
+ 
+       		printf("Enter Character : ");
+
+        		scanf(" %c", &ch); //Give a character space(whitespace) before %c
+
+    
+    		printf("ASCII Number of character %c is %d", ch, ch);
+
+        		break;
+
+        
+	case 2:
+
+        		printf("Enter Number : ");
+
+        		scanf("%d", &n);
+
+    
+    		printf("ASCII Number of character %d is %c", n, n);
+
+        		break;
+
+        	default:
+
+        		printf("Invalid Input");
+
+    }
+}
+
+
+/*
+
+
+Case 1: Char to integer
+
+-----------------------
+
+The %c conversion specifier won't automatically skip any leading whitespace, so if there's a stray newline in the input stream (from a previous entry, for example) the scanf call will consume it immediately.
+
+One way around the problem is to put a blank space before the conversion specifier in the format string:
+
+scanf(" %c", &c);
+The blank in the format string tells scanf to skip leading whitespace, and the first non-whitespace character will be read with the %c conversion specifier
+
+
+*/

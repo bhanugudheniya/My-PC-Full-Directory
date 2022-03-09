@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>ICSW-Form Validation</title>
+
+    <style>
+        body {
+            background-image: linear-gradient(to right, #aeaeae, #b8b8c1, #c0c3d5, #c6cfea, #c9dbff);
+        }
+        
+        #nl {
+            position: absolute;
+            top: 20px;
+            left: 40%;
+        }
+        
+        #ll {
+            position: absolute;
+            top: 50px;
+            left: 40%;
+        }
+        
+        #el {
+            position: absolute;
+            top: 80px;
+            left: 40%;
+        }
+        
+        #pl {
+            position: absolute;
+            top: 110px;
+            left: 40%;
+        }
+        
+        #cl {
+            position: absolute;
+            top: 250px;
+            left: 43.5%;
+        }
+        /*Writable area */
+        
+        .nt {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+        }
+        
+        .lt {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+        }
+        
+        .et {
+            position: absolute;
+            top: 80px;
+            left: 50%;
+        }
+        
+        .pt {
+            position: absolute;
+            top: 110px;
+            left: 50%;
+        }
+        
+        .ct {
+            position: absolute;
+            top: 280px;
+            left: 39%;
+            resize: none;
+        }
+        
+        .btn {
+            position: absolute;
+            top: 430px;
+            left: 47.5%;
+        }
+        
+        #line {
+            position: absolute;
+            top: 400px;
+            left: 41%;
+        }
+        
+        #line2 {
+            position: absolute;
+            top: 405px;
+            left: 41%;
+        }
+    </style>
+
+    <script>
+        // First Name Validation
+        function validateForm() {
+            var name = document.forms["formV"]["first"].value;
+            if (name == "") {
+                alert("First Name must be filled out");
+            }
+        }
+
+        // Last Name Validation
+        function validateForm() {
+            var lastname = document.forms["formV"]["last"].value;
+            if (lastname == "") {
+                alert("Last Name must be filled out");
+            }
+        }
+
+        // Email Validation
+        function validateForm() {
+            var Email = document.forms["formV"]["email"].value;
+            if (Email == "") {
+                alert("Email Id must be filled out");
+            }
+        }
+
+        // Phone Number Validation
+        function validateForm() {
+            var x = document.forms["formV"]["number"].value;
+            if (x === "") {
+                alert("Phone Number must be filled out");
+            }
+        }
+
+        //Comment Validation
+        function validateForm() {
+            var Area = document.forms["formV"]["area"].value;
+            if (Area == "") {
+                alert("Comment must be filled out");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <center>
+        <div class="container-fluid">
+            <form id="form" name="formV" onsubmit="validateForm()" method="POST">
+                <table>
+                    <tr>
+                        <label id="nl"> First Name </label>
+                        <input type="text" class="nt" name="first" placeholder="First Name">
+                    </tr>
+
+                    <br> <br>
+
+                    <tr>
+                        <label id="ll"> Last Name </label>
+                        <input type="text" class="lt" name="last" placeholder="Last Name">
+                    </tr>
+
+                    <br> <br>
+
+                    <tr>
+                        <label id="el"> Email Id </label>
+                        <input type="email" class="et" name="email" placeholder="Email Id">
+                    </tr>
+
+                    <br> <br>
+
+                    <tr>
+                        <label id="pl"> Phone Number </label>
+                        <input type="text" class="pt" name="number" id="numb" placeholder="Contact Number">
+                    </tr>
+
+                    <br> <br>
+                    <hr width="150px">
+                    <tr>
+                        <label> Gender </label> <br>
+                        <hr width="50px">
+                    </tr>
+                    <tr>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </tr>
+
+                    <hr width="250px">
+                    <hr width="250px">
+
+                    <br> <br>
+
+                    <tr>
+                        <label id="cl"> Comment/Query/Suggestion</label> <br>
+                        <textarea rows="7" cols="40" class="ct" name="area" placeholder="Write here"></textarea>
+                    </tr>
+
+                    <br>
+                    <hr width="250px" id="line">
+                    <hr width="250px" id="line2">
+                    <br>
+
+                    <input type="submit" name="button" value="Submit" class="btn">
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

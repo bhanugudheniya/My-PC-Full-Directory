@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    border: 2px solid gray;
+}
+
+.first {
+    text-align: center;
+    height: 200px;
+    width: 49.7%;
+    border: 1px solid blueviolet;
+    border-right: none;
+    border-top: none;
+    float: left;
+}
+
+.second {
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    border: 2px solid red;
+    border-right: none;
+    border-top: none;
+    float: left;
+}

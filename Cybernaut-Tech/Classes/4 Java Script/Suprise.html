@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #form {
+            border: 2px solid black;
+            opacity: 0;
+            /* height: 200px;
+            width: 200px; */
+            /* transform: translate(100px, 100px); */
+            transition: 1s ease-in-out;
+        }
+    </style>
+
+    <script>
+        function show() {
+            document.getElementById("form").style.opacity = 1;
+        }
+
+        function hide() {
+            document.getElementById("form").style.opacity = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <div onclick="show()">
+        <img src="C:\Users\Public\Pictures\Sample Pictures\Koala.jpg" alt="img" height="200" width="500">
+    </div>
+    <br>
+    <input type="button" value="click kardo yr" onclick="show()">
+    <br>
+    <br>
+    <input type="button" value="Chupa do yr" onclick="hide()">
+
+    <div id="form">
+        Name <br>
+        <input type="text"> <br> Last Name <br>
+        <input type="text"> <br> Kuch To Likh Do yr <br>
+        <input type="text">
+
+    </div>
+</body>
+
+</html>i

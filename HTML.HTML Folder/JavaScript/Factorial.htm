@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Javascript program for find factorial of given number </title>
+<script type="text/javascript">
+	function fact(n)
+	{
+		var i=1;
+		while(n)
+		{
+			i=i*n;
+			n--;
+		}
+		alert("Factorial of given number :"+" "+ i);
+	}
+</script>
+</head>
+
+<body bgcolor="powderblue">
+<h1 align="center"><font color="tomato"> <u> <b> Program to calculate factorial </b> </u> </font></h1>
+<form align="center">
+Enter any number :<input type="text" name="fact1"><br><br>
+<input type="button" value="result" onclick="fact(fact1.value)">
+</form>
+</body>
+</html>

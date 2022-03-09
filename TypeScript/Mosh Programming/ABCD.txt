@@ -1,0 +1,7 @@
+First install TypeScript - { npm install -g typescript }
+second make a Source code using - code main.ts
+then write code 
+then save and compile code with - tsc main.ts
+then run code with - node main.js <during compilation - '.ts' file make another file where extension is '.js'>
+*******
+for compiling and running code on one command - tsc forLoop.ts | node forLoop.js

@@ -1,0 +1,24 @@
+{
+  "name": "node_manual",
+  "version": "12.14.1",
+  "description": "Node Manual Dev ed",
+  "main": "y",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "nm"
+  ],
+  "author": "bhanu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

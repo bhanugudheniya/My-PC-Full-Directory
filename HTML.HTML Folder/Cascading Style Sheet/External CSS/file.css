@@ -1,0 +1,17 @@
+body
+{
+	background-color : powderblue;
+}
+
+.head								
+{
+	text-align : center;
+	color : blue;
+	text-decoration : underline;
+}
+
+#para
+{
+	color : Red;
+	font-size : 30px;
+}

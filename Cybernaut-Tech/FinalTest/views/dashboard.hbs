@@ -1,0 +1,29 @@
+<tbody>
+    {% for Data in data %}
+    <tr>
+        <!-- <th scope="row">1</th> -->
+        <td>{{Data.id}}</td> ||
+        <td>{{Data.Name}}</td> ||
+        <td>{{Data.Phone}}</td> ||
+        <td>{{Data.Email}}</td> ||
+        <td>{{Data.Message}}</td> ||
+
+        <td>
+            <form action="/update/{{Data.id}}" method="post">
+                Name :
+                <input type="text" name="name" id=""> || Phone
+                <input type="text" name="phone" id=""> || Email
+                <input type="text" name="email" id=""> || Message
+                <input type="text" name="message" id="">
+                <button type="submit">Update</button>
+            </form>
+        </td>
+        <td>
+            <form action="/delete/{{Data.id}}" method="post">
+                <button type="submit">Delete</button>
+            </form>
+
+        </td>
+    </tr>
+    {% endfor %}
+</tbody>

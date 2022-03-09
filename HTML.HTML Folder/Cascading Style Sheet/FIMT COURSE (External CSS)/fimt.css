@@ -1,0 +1,31 @@
+body
+{
+	background-color : poderblue;
+}
+
+#head
+{
+	color : #148F77;
+	text-decoration : underline;
+}
+
+.bca-baEco
+{
+	color : blue;
+	font-style : italic;
+	font-size : 12px;
+}
+
+#bba
+{
+	color : red;
+	font-family : Arial;
+	font-size : 15px;
+}
+
+#bcom
+{
+	color : green;
+	font-family : Verdana;
+	font-size : 20px;
+}
